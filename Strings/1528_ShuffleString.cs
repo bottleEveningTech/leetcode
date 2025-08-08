@@ -4,10 +4,12 @@ public partial class Solution
 {
     public string RestoreString(string s, int[] indices)
     {
-        StringBuilder sb = new StringBuilder(new string(' ', s.Length));
+        char[] chars = new string(' ', s.Length).ToCharArray();
+        //StringBuilder sb = new StringBuilder(new string(' ', s.Length));
         for (int i = 0, j = 0; i < s.Length && j < indices.Length; i++, j++) {
-            sb[indices[j]] = s[i];
+            chars[indices[j]] = s[i];
         }
-        return sb.ToString();
+        //return sb.ToString();
+        return new string(chars);
     }
 }
