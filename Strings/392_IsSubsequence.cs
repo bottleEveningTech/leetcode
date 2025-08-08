@@ -1,4 +1,4 @@
-public class Solution
+public partial class Solution
 {
     public bool IsSubsequence(string s, string t)
     {

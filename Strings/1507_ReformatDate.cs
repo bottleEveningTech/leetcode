@@ -1,4 +1,4 @@
-public class Solution
+public partial class Solution
 {
 
     private static readonly Dictionary<string, string> MonthMap = new()

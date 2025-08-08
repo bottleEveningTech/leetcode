@@ -1,7 +1,7 @@
 using System.Text.RegularExpressions;
 
 
-public class Solution
+public partial class Solution
 {
     public int LengthOfLastWord(string s)
     {

@@ -6,3 +6,5 @@
 /.vs
 /.gitignore
 /.gitignore
+bin/
+obj/

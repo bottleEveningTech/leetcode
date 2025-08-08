@@ -1,4 +1,4 @@
-public class Solution
+public partial class Solution
 {
 	public void MoveZeroes(int[] nums)
 	{
@@ -9,7 +9,7 @@ public class Solution
 			{
 				if (nums[i] == 0)
 				{
-					(nums[i], nums[j]) = (nums[j], nums[i]);
+					(nums[i], nums[j]) = (nums[j], nums[i]); 
 					swapLimit--;
 				}
 			}
