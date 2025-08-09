@@ -1,3 +1,5 @@
+using System.Text;
+
 public partial class Solution
 {
     public string ToLowerCase(string s)
