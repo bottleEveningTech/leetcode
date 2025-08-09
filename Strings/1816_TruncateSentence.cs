@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-public class Solution
+public partial class Solution
 {
     public string TruncateSentence(string s, int k)
     {
