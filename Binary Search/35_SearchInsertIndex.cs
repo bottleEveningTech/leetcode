@@ -1,0 +1,27 @@
+﻿public partial class Solution
+{
+    public int SearchInsert(int[] nums, int target)
+    {
+        int start = 0;
+        int end = nums.Length - 1;
+
+        while(start < end)
+        {
+            int mid = start + (end - start) / 2;
+            if(nums[mid] == target)
+            {
+                return mid;
+            }
+            else if(nums[mid] < target)
+            {
+                start = mid + 1;
+            }
+            else
+            {
+                end = mid;
+            }
+        }
+
+        return nums[start] < target ? start + 1 : start;
+    }
+}
